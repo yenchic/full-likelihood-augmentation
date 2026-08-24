@@ -26,3 +26,9 @@ These scripts correspond to the multivariate extension of the baseline model, de
 These scripts correspond to the robustness analysis, demonstrating how the IPW and FL estimators behave when the target distribution is deliberately mis-specified.
 - `run_simulation_mis.R`: Runs the Monte Carlo simulation under model mis-specification.
 - `plot_mse_mis.R`: Generates the MSE comparison plots highlighting the robustness trade-offs between IPW and FL.
+
+## 6. Nonparametric Density Estimation (KDE)
+These scripts correspond to the nonparametric density estimation experiments, illustrating the efficiency gains of the ASR-KDE and comparing it against IPW-KDE and TAIPW-KDE estimators under varying sample size scaling regimes.
+- `run_simulation_asr_kde.R`: Runs the Monte Carlo simulation to evaluate the Mean Integrated Squared Error (MISE) of the KDE estimators, and generates the corresponding MSE scaling plots.
+- `run_simulation_ipw_compare.R`: Runs a targeted simulation to compare the standard old IPW estimator, the new IPW estimator, and the FL estimator across multiple parameters. 
+- `plot_mse_compare.R`: Processes the output of the IPW comparison simulation and generates the MSE comparison plots.
