@@ -30,5 +30,3 @@ These scripts correspond to the robustness analysis, demonstrating how the IPW a
 ## 6. Nonparametric Density Estimation (KDE)
 These scripts correspond to the nonparametric density estimation experiments, illustrating the efficiency gains of the ASR-KDE and comparing it against IPW-KDE and TAIPW-KDE estimators under varying sample size scaling regimes.
 - `run_simulation_asr_kde.R`: Runs the Monte Carlo simulation to evaluate the Mean Integrated Squared Error (MISE) of the KDE estimators, and generates the corresponding MSE scaling plots.
-- `run_simulation_ipw_compare.R`: Runs a targeted simulation to compare the standard old IPW estimator, the new IPW estimator, and the FL estimator across multiple parameters. 
-- `plot_mse_compare.R`: Processes the output of the IPW comparison simulation and generates the MSE comparison plots.
